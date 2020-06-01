@@ -1,0 +1,22 @@
+{
+    "tasks": [
+        {
+            "type": "che",
+            "label": "gradle build",
+            "command": "gradle build",
+            "target": {
+                "workingDir": "${CHE_PROJECTS_ROOT}/console-java-simple",
+                "component": "gradle"
+            }
+        },
+        {
+            "type": "che",
+            "label": "gradle run",
+            "command": "gradle run",
+            "target": {
+                "workingDir": "${CHE_PROJECTS_ROOT}/console-java-simple",
+                "component": "gradle"
+            }
+        }
+    ]
+}
