@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - WebParserTest",
+            "request": "launch",
+            "mainClass": "src.WebParserTest",
+            "projectName": "congressional-letter_a43882ff"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorld",
+            "request": "launch",
+            "mainClass": "src.HelloWorld",
+            "projectName": "congressional-letter_a43882ff"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HelloWorld",
             "request": "launch",
             "mainClass": "HelloWorld",
