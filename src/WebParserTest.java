@@ -9,13 +9,9 @@ import java.io.IOException;
 
 public class WebParserTest {
 
-    public static void main (String args[] ) throws IOException {
-        String html = "<html><head><title>Sample Title</title></head>"
-         + "<body><p>Sample Content</p></body></html>";
+    public static void main (final String args[]) throws IOException {
         String url = "https://neguse.house.gov";
-        Document document = Jsoup.connect(url).get();
+        final Document document = Jsoup.connect(url).get();
         System.out.println(document.title());
     }
-
-    
 }
